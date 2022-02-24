@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{008EA62E-C6EC-4832-8AFF-3DAF2A0BD0B0}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Alejandro_Galindo" ID="{008EA62E-C6EC-4832-8AFF-3DAF2A0BD0B0}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="BoatSound" ID="{5D515135-8C80-4055-A4F0-E589CBFC9D79}" ShortID="35136740">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{E1BD3AC4-7C5D-4D0F-81ED-885F7B543CB4}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="859"/>
+											<Property Name="Min" Type="Real64" Value="-379"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55DA3A12-4ADB-4BC6-9AD1-D9DBEA1B9253}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40454D5D-F413-4B47-8E33-A7DF9D3D2454}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Boats, Horn, Big, Dry 04 SND34105 2" ID="{D54236E9-0A63-488D-815A-5E7C33CF9D09}">
+							<Language>SFX</Language>
+							<AudioFile>Boats, Horn, Big, Dry 04 SND34105 2.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="929701787"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Boats, Horn, Big, Dry 04 SND34105 2" ID="{D54236E9-0A63-488D-815A-5E7C33CF9D09}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
