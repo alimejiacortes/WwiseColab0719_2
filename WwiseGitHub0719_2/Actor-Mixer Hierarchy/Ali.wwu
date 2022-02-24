@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F6C03ECC-2C67-4219-AED6-FA2D4290C1CD}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Ali" ID="{F6C03ECC-2C67-4219-AED6-FA2D4290C1CD}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="AliMejiaCortes" ID="{BEA2CA5A-6250-4AC7-A639-62F3839C52F3}" ShortID="778302618">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{94E3DDF6-CDF6-4BAB-89BF-38BA30045F15}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="935"/>
+											<Property Name="Min" Type="Real64" Value="-429"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55DA3A12-4ADB-4BC6-9AD1-D9DBEA1B9253}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40454D5D-F413-4B47-8E33-A7DF9D3D2454}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="TEXTURE 8 EM 0_55" ID="{02BBB2DF-0DE5-4E67-BD60-3B55D5865299}">
+							<Language>SFX</Language>
+							<AudioFile>TEXTURE 8 EM 0_55.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="229837815"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="TEXTURE 8 EM 0_55" ID="{02BBB2DF-0DE5-4E67-BD60-3B55D5865299}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
