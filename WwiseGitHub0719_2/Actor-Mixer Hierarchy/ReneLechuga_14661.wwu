@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{34EBFDC3-EED2-4965-A3DE-EFBC0E4974EC}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="ReneLechuga_14661" ID="{34EBFDC3-EED2-4965-A3DE-EFBC0E4974EC}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Sonido" ID="{9418FBEC-8B42-462F-AFEB-72FD832F7F31}" ShortID="111363988">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9E934284-0F75-4AAC-AE97-F58DC1EE8D73}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F19E938C-DC96-4652-ADA2-060C5464CDD1}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Cartoon, Whistle, Siren, Fun, Up 07 SND5644" ID="{C102ABD6-5CD3-42D1-AEB3-DE51FAAF4925}">
+							<Language>SFX</Language>
+							<AudioFile>Cartoon, Whistle, Siren, Fun, Up 07 SND5644.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="722139581"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Cartoon, Whistle, Siren, Fun, Up 07 SND5644" ID="{C102ABD6-5CD3-42D1-AEB3-DE51FAAF4925}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
