@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{136CAD07-2EA4-4469-9942-9DEC85B44D9C}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Mejia" ID="{136CAD07-2EA4-4469-9942-9DEC85B44D9C}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="AliMejiaCortes" ID="{E00EA7F3-B32C-486F-89FF-82C5A7ECF6AA}" ShortID="60394366">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-2</Value>
+							</ValueList>
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{8B25B3A8-0718-4674-AE90-61B463D0D4FB}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="4"/>
+											<Property Name="Min" Type="Real64" Value="-15"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55DA3A12-4ADB-4BC6-9AD1-D9DBEA1B9253}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40454D5D-F413-4B47-8E33-A7DF9D3D2454}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="EVENT 4 ASi 1_54" ID="{51F2B435-1F26-47C1-BB6F-99FC5585C492}">
+							<Language>SFX</Language>
+							<AudioFile>EVENT 4 ASi 1_54.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="965256893"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="EVENT 4 ASi 1_54" ID="{51F2B435-1F26-47C1-BB6F-99FC5585C492}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
