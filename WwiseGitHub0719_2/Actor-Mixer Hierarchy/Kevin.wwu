@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D93E95FB-92CA-4CCC-82D2-E728428CE687}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Kevin" ID="{D93E95FB-92CA-4CCC-82D2-E728428CE687}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Footsteps, Human, Jump, Land, Shoes, Concrete 02 SND17122" ID="{92D016D2-A1A9-44F8-8AE6-5A61DF4B2E3E}" ShortID="600615821">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{77373BE2-5535-4B9E-ADAB-94971E9ECBC5}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{303A43BF-6FFF-4A54-994B-7B1C35B4905C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Footsteps, Human, Jump, Land, Shoes, Concrete 02 SND17122" ID="{29859C34-304B-4ED9-B357-775351ADCEE3}">
+							<Language>SFX</Language>
+							<AudioFile>Footsteps, Human, Jump, Land, Shoes, Concrete 02 SND17122.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="795970548"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Footsteps, Human, Jump, Land, Shoes, Concrete 02 SND17122" ID="{29859C34-304B-4ED9-B357-775351ADCEE3}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
