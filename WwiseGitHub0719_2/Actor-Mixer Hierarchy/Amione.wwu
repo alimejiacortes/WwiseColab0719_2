@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{EA366C2C-DAAB-4902-AE51-0908D0993F7E}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Amione" ID="{EA366C2C-DAAB-4902-AE51-0908D0993F7E}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="LALALA" ID="{50CB1229-24EC-49F7-8C49-96DEBD97589F}" ShortID="1040556704">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>1300</Value>
+							</ValueList>
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{FD223183-73D4-46AD-9C64-23A98E04AAA2}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="1011"/>
+											<Property Name="Min" Type="Real64" Value="-632"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BDE86B1B-D5A8-4577-8281-9818EF74AFFB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A07E095F-E0B7-4D3B-AD7D-5BCD222BA860}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="recording_2021-5-31 0_42_40_44_1kHz_stereo" ID="{F977014C-8524-418B-8C3A-69C2F6AB853B}">
+							<Language>SFX</Language>
+							<AudioFile>recording_2021-5-31 0_42_40_44.1kHz_stereo.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="837383990"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="recording_2021-5-31 0_42_40_44_1kHz_stereo" ID="{F977014C-8524-418B-8C3A-69C2F6AB853B}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
