@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{008EA62E-C6EC-4832-8AFF-3DAF2A0BD0B0}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Alejandro_Galindo" ID="{008EA62E-C6EC-4832-8AFF-3DAF2A0BD0B0}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Object" ID="{255AAD0C-9DDA-44C1-BA53-783D097FE7F2}" ShortID="175337686">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{D6E48B34-2274-471A-8186-477752C12495}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="404"/>
+											<Property Name="Min" Type="Real64" Value="-379"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55DA3A12-4ADB-4BC6-9AD1-D9DBEA1B9253}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40454D5D-F413-4B47-8E33-A7DF9D3D2454}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Objects, Furniture, Bed, Jumping On, Bounce, Recorded Underneath SND24642 1" ID="{7721C8F9-8133-4626-8794-EC738E2B2E7C}">
+							<Language>SFX</Language>
+							<AudioFile>Objects, Furniture, Bed, Jumping On, Bounce, Recorded Underneath SND24642 1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="442764138"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Objects, Furniture, Bed, Jumping On, Bounce, Recorded Underneath SND24642 1" ID="{7721C8F9-8133-4626-8794-EC738E2B2E7C}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
