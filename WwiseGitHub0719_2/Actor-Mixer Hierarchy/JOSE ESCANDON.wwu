@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FDCEC0D4-C85E-44AA-81BC-2412DD063644}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="JOSE ESCANDON" ID="{FDCEC0D4-C85E-44AA-81BC-2412DD063644}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Machine gun_Blast" ID="{6571781B-4316-45CC-A83A-E70A57BC6C02}" ShortID="178441637">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE6CB935-C56C-442B-9068-7A73649B8B3E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE41401E-E573-45DF-8727-9B37B7A6CF89}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Machine gun_Blast" ID="{5B96EA3D-115E-44B2-B576-A48870B3B2C3}">
+							<Language>SFX</Language>
+							<AudioFile>Machine gun_Blast.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="307532217"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Machine gun_Blast" ID="{5B96EA3D-115E-44B2-B576-A48870B3B2C3}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
