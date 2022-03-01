@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{93D96AE9-07AE-46B2-8975-480C521BCB38}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Fernandote" ID="{93D96AE9-07AE-46B2-8975-480C521BCB38}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Miau" ID="{AF5D8413-F907-4246-AE30-0EDBCE62D993}" ShortID="227682418">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{6C39FDAD-B2AB-4128-8837-90887821AF84}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="3333"/>
+											<Property Name="Min" Type="Real64" Value="-3333"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55DA3A12-4ADB-4BC6-9AD1-D9DBEA1B9253}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40454D5D-F413-4B47-8E33-A7DF9D3D2454}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="miau" ID="{8AF79DDF-6A4A-4B43-A85A-118313F3CEF9}">
+							<Language>SFX</Language>
+							<AudioFile>miau.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="779297481"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="miau" ID="{8AF79DDF-6A4A-4B43-A85A-118313F3CEF9}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
