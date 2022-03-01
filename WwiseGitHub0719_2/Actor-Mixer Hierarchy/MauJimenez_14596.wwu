@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E65FFE64-5D16-4D27-82FD-A698B3703EE4}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="MauJimenez_14596" ID="{E65FFE64-5D16-4D27-82FD-A698B3703EE4}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Games, Video, Event, Collect Coin, Digital Beep SND5549" ID="{21FDA9C3-DDDD-4833-8471-98117FF71FD9}" ShortID="287522832">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D5B2F4FA-0004-44A6-83A5-EA39EC2FC1DB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FC37405E-24CE-4E92-A3D0-FF1F2ED9C285}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Games, Video, Event, Collect Coin, Digital Beep SND5549" ID="{C751EDC5-8455-4435-A29E-09885E4AD3F6}">
+							<Language>SFX</Language>
+							<AudioFile>Games, Video, Event, Collect Coin, Digital Beep SND5549.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="57132158"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Games, Video, Event, Collect Coin, Digital Beep SND5549" ID="{C751EDC5-8455-4435-A29E-09885E4AD3F6}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
